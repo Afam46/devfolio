@@ -1,7 +1,24 @@
 <template>
-    <div class="min-h-screen flex items-center justify-center">
-        <h1 class="text-5xl font-bold">
-            LaraGlide
-        </h1>
+    <div class="min-h-screen bg-[#0f172a] text-white">
+        <Header />
+
+        <main>
+            <HeroSection />
+            <AboutSection />
+            <ProjectsSection />
+            <ContactsSection />
+            <FormSection />
+        </main>
     </div>
 </template>
+
+<script setup>
+
+import Header from '../layouts/home/Header.vue'
+import HeroSection from '../layouts/home/HeroSection.vue'
+import AboutSection from '../layouts/home/AboutSection.vue'
+import ProjectsSection from '../layouts/home/ProjectsSection.vue'
+import ContactsSection from '../layouts/home/ContactsSection.vue'
+import FormSection from '../layouts/home/FormSection.vue'
+
+</script>
