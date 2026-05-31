@@ -1,8 +1,14 @@
 <template>
-    <div
+   <div
         ref="aiModal"
-        class="absolute right-0 top-1/3 z-50 w-96 rounded-2xl border border-cyan-400
-        bg-[#0f172a] p-4 shadow-lg shadow-black"
+        class="absolute z-50 top-1/3 mt-4
+        w-full max-w-sm md:w-96
+        left-1/2 -translate-x-1/2
+        md:left-auto md:right-0 md:translate-x-0
+        rounded-2xl border border-cyan-400
+        bg-[#0f172a] p-4
+        shadow-lg shadow-black
+        "
     >
         <div class="mb-4 flex items-center justify-between">
             <h4 class="text-lg font-semibold text-cyan-400">

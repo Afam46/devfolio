@@ -17,7 +17,7 @@
 
                 <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-400">
                     Открыт к сотрудничеству, fullstack/backend вакансиям
-                    и интересным проектам.
+                    и интересным проектам
                 </p>
             </div>
 

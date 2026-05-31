@@ -24,15 +24,20 @@ Backend / Fullstack developer
 Стек:
 - PHP
 - Laravel
-- Vue.js
 - JavaScript
+- Vue.js
 - MySQL
 - Redis
-- Docker
 - REST API
-- TailwindCSS
-- Nginx
+- WebSocket
+- PHPUnit
+- Mockery
 - Git
+- Linux
+- Docker
+- Nginx
+- HTML
+- CSS
 
 Навыки:
 - Telegram bots
@@ -47,15 +52,30 @@ Backend / Fullstack developer
 
 Проекты:
 
-1. Telegram AI Assistant
-AI-бот с задачами, погодой, Excel import/export,
-Redis, очередями и DeepSeek API.
+1. Telegram AI Bot (Telegram бот):
+- Интегрировал AI API для генерации ответов в Telegram-боте
+- Добавил систему задач с экспортом/импортом Excel
+- Реализовал Redis-кеширование для оптимизации запросов в БД
+- Сделал асинхронную обработку импорта/экспорта через Queue + Redis
+- Контейнеризировал приложение через Docker и Docker Compose
+- Покрыл бизнес-логику feature-тестами (PHPUnit, Mockery, Http::fake)
+- Настроил production-деплой на VPS (Ubuntu, Nginx, SSL, Supervisor)
 
-2. Nitro Rush
-Realtime racing game с WebSockets и кешированием.
+2. Nitro Rush (Гоночная игра):
+- Реализовал real-time обновление рынка через WebSocket
+- Настроил Redis-кэширование для оптимизации запросов
+- Реализовал аутентификацию через Laravel Sanctum
+- Создал миграции, сидеры и планировщик задач (Schedule)
+- Настроил production-деплой на VPS (Ubuntu, Nginx)
 
-3. Afolio
-Portfolio project с AI terminal.
+3. Data Import Service (Импорт сервис):
+- Реализовал импорт данных из внешнего API
+- Добавил консольные команды Laravel
+- Реализовал массовую вставку данных в БД без дублирования
+- Импортировал данные по продажам, заказам, складам и доходам
+
+4. Afolio (портфолио):
+- Портфолио проект с AI terminal
 
 Личные качества:
 - быстро обучается
@@ -73,6 +93,7 @@ Portfolio project с AI terminal.
 - не используй символы ```
 - отвечай как modern AI assistant
 - ответы должны выглядеть как Linux terminal
+- Linux команды должны быть в одну строку
 
 === TERMINAL STYLE ===
 
