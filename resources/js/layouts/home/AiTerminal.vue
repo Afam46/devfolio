@@ -66,13 +66,13 @@
                         v-for="element in terminalHistory.slice(0, -1)"
                         :key="element.command"
                     >
-                        <span class="text-green-400">afam@ai:~$</span>
+                        <span class="text-green-400">afam@ai:~$ </span>
                         <span class="text-cyan-400">{{  element.command  }}</span>
                         <br>
                         <span>{{  element.output  }}</span>
                     </div>
 
-                    <span class="text-green-400">afam@ai:~$</span>
+                    <span class="text-green-400">afam@ai:~$ </span>
                     <span class="text-cyan-400">{{  displayedCommand  }}</span>
                     <span class="animate-pulse text-cyan-400" v-if="showSpanCommand">|</span>
 
@@ -141,6 +141,19 @@ const askAi = async () => {
         displayedCommand.value = ''
         question.value = ''
         loading.value = false
+        return
+    }else if(question.value == 'ls'){
+
+        displayedCommand.value = 'ls'
+        displayedAnswer.value = 'stack.txt project.txt direction.txt'
+        question.value = ''
+        loading.value = false
+
+        terminalHistory.value.push({
+            command: displayedCommand.value,
+            output: displayedAnswer.value
+        })
+
         return
     }
 

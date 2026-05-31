@@ -36,15 +36,6 @@
                             ">
                                 Afolio
                             </h1>
-
-                            <p style="
-                                margin-top:10px;
-                                color:#94a3b8;
-                                font-size:14px;
-                            ">
-                                New contact form message
-                            </p>
-
                         </td>
                     </tr>
 
@@ -59,7 +50,7 @@
                             ">
 
                                 <p style="color:#22d3ee; margin:0 0 10px;">
-                                    Name
+                                    Имя
                                 </p>
 
                                 <p style="color:white; margin:0 0 24px;">
@@ -67,7 +58,7 @@
                                 </p>
 
                                 <p style="color:#22d3ee; margin:0 0 10px;">
-                                    Email
+                                    Почта
                                 </p>
 
                                 <p style="color:white; margin:0 0 24px;">
@@ -75,7 +66,7 @@
                                 </p>
 
                                 <p style="color:#22d3ee; margin:0 0 10px;">
-                                    Phone
+                                    Телефон
                                 </p>
 
                                 <p style="color:white; margin:0 0 24px;">
@@ -83,7 +74,7 @@
                                 </p>
 
                                 <p style="color:#22d3ee; margin:0 0 10px;">
-                                    Message
+                                    Комментарий
                                 </p>
 
                                 <p style="
@@ -111,7 +102,7 @@
                                 font-size:13px;
                                 margin:0;
                             ">
-                                Afolio • Laravel + Vue + AI
+                                Afolio • Laravel + Vue
                             </p>
 
                         </td>
