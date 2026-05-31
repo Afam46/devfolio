@@ -10,17 +10,25 @@
             </h2>
 
             <p class="mb-8 text-base leading-7 text-gray-300 sm:text-lg sm:leading-8">
-                Fullstack-разработчик с фокусом на Laravel + Vue...
+                Fullstack-разработчик с фокусом на Laravel + Vue.
+                Разрабатываю API, Telegram-ботов, realtime-приложения,
+                AI-интеграции и современные SPA
             </p>
 
-            <div class="flex flex-col gap-4 sm:flex-row">
-                <a href="#projects" class="rounded-xl bg-cyan-500 px-4 py-2
-                text-center text-sm font-medium sm:px-6 sm:py-3"
+            <div class="flex gap-4 flex-row">
+                <a
+                    href="#projects"
+                    class="inline-flex items-center justify-center rounded-xl
+                    bg-cyan-500 px-4 py-2 text-center text-sm font-medium transition
+                    hover:bg-cyan-400 sm:px-6 sm:py-3"
                 >
                     Мои проекты
                 </a>
-                <a href="#form" class="rounded-xl border border-white/20 px-4 py-2
-                text-center text-sm sm:px-6 sm:py-3"
+                <a
+                    href="#form"
+                    class="inline-flex items-center justify-center rounded-xl
+                    border border-white/20 px-4 py-2 text-center text-sm font-medium transition
+                    hover:border-cyan-400 hover:text-cyan-400 sm:px-6 sm:py-3"
                 >
                     Связаться
                 </a>

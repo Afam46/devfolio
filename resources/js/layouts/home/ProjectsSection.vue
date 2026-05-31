@@ -1,5 +1,5 @@
 <template>
-     <section id="projects" class="bg-[#111827] py-24">
+     <section id="projects" class="py-18">
         <div class="mx-auto max-w-6xl px-6">
             <div class="mb-12">
                 <p class="mb-2 text-sm uppercase tracking-[0.3em] text-cyan-400">

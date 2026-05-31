@@ -11,7 +11,7 @@
         "
     >
         <div class="mb-4 flex items-center justify-between">
-            <h4 class="text-lg font-semibold text-cyan-400">
+            <h4 class="text-base sm:text-lg font-semibold text-cyan-400">
                 AI комментарий
             </h4>
 

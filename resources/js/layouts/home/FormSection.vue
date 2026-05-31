@@ -1,5 +1,5 @@
 <template>
-    <section id="form" class="mx-auto max-w-4xl px-6 py-24">
+    <section id="form" class="mx-auto max-w-4xl px-6 py-18">
         <div class="mb-12 text-center">
             <p class="mb-2 text-sm uppercase tracking-[0.3em] text-cyan-400">
                 Форма
@@ -12,7 +12,8 @@
 
         <form
             @submit.prevent="submitForm"
-            class="space-y-6 rounded-3xl border border-white/10 bg-white/5 p-8 relative">
+            class="space-y-6 rounded-3xl border border-white/10 bg-white/5 p-8
+            relative text-sm sm:text-base">
             <div class="grid gap-6 md:grid-cols-2">
 
                 <input
@@ -55,7 +56,7 @@
                 @generated="form.message = $event"
             />
             
-            <div class="flex flex-col gap-4 sm:flex-row">
+            <div class="flex gap-4 flex-row">
                 <button
                     :disabled="loading"
                     class="w-full rounded-2xl bg-cyan-500 py-4 font-semibold cursor-pointer

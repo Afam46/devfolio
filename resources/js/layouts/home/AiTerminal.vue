@@ -1,5 +1,5 @@
 <template>
-    <section class="px-6 py-24">
+    <section class="px-6 py-18">
 
         <div
             class="mx-auto max-w-5xl overflow-hidden rounded-3xl

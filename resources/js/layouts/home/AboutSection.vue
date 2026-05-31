@@ -1,5 +1,5 @@
 <template>
-    <section id="about" class="mx-auto max-w-6xl px-6 py-24">
+    <section id="about" class="mx-auto max-w-6xl px-6 py-14">
         <div class="mb-12">
             <p class="mb-2 text-sm uppercase tracking-[0.3em] text-cyan-400">
                 Обо мне

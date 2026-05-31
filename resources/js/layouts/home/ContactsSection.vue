@@ -1,7 +1,7 @@
 <template>
     <section
         id="contacts"
-        class="bg-[#111827] py-24"
+        class="py-18"
     >
         <div class="mx-auto max-w-6xl px-6">
             <div class="mb-14 text-center">
@@ -28,8 +28,8 @@
                     transition hover:-translate-y-2 hover:border-cyan-400/40"
                 >
                     <div
-                        class="mb-5 flex h-14 w-14 items-center justify-center
-                        rounded-2xl bg-cyan-400/10 text-3xl"
+                        class="mb-5 flex h-12 w-12 items-center justify-center
+                        rounded-2xl bg-cyan-400/10 text-2xl sm:h-14 sm:w-14 sm:text-3xl"
                     >
                         {{ contact.emoji }}
                     </div>
