@@ -11,11 +11,11 @@
                     Контакты
                 </p>
 
-                <h2 class="text-4xl font-bold">
+                <h2 class="text-2xl font-bold sm:text-3xl md:text-4xl">
                     Где меня найти
                 </h2>
 
-                <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-400">
+                <p class="mx-auto mt-4 max-w-2xl text-base leading-7 text-gray-400 sm:mt-6 sm:text-lg">
                     Открыт к сотрудничеству, fullstack/backend вакансиям
                     и интересным проектам
                 </p>
@@ -34,7 +34,7 @@
                         {{ contact.emoji }}
                     </div>
 
-                    <h3 class="mb-2 text-2xl font-semibold">
+                    <h3 class="mb-2 text-xl font-semibold sm:text-2xl">
                         {{ contact.title }}
                     </h3>
 

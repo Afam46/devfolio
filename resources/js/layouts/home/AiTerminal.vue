@@ -23,7 +23,7 @@
 
             </div>
 
-            <div class="space-y-6 p-8 font-mono text-sm">
+            <div class="space-y-6 p-4 font-mono text-xs sm:p-8 sm:text-sm">
 
                 <div>
                     <span class="text-cyan-400">
@@ -92,13 +92,14 @@
                         type="text"
                         placeholder="Спросите что-нибудь..."
                         class="flex-1 rounded-2xl border border-white/10
-                        bg-[#0f172a] px-5 py-4 text-white outline-none
-                        transition focus:border-cyan-400"
+                        bg-[#0f172a] px-4 py-3 text-sm text-white outline-none
+                        sm:px-5 sm:py-4 transition focus:border-cyan-400"
                     >
 
                     <button
                         :disabled="loading"
-                        class="rounded-2xl bg-cyan-500 px-8 py-4
+                        class="rounded-2xl bg-cyan-500 px-6
+                        py-3 text-sm sm:px-8 sm:py-4
                         font-semibold text-black transition
                         hover:bg-cyan-400 disabled:opacity-50"
                     >

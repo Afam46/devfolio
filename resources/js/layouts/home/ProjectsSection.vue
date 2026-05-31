@@ -6,7 +6,7 @@
                     Проекты
                 </p>
 
-                <h3 class="text-4xl font-bold">
+                <h3 class="text-2xl font-bold sm:text-3xl md:text-4xl">
                     Кейсы и опыт
                 </h3>
             </div>
@@ -20,11 +20,11 @@
                     class="rounded-3xl border border-white/10 bg-white/5 p-6 transition
                     hover:-translate-y-2 hover:border-cyan-400/30"
                 >
-                    <h4 class="mb-4 text-2xl font-semibold">
+                    <h4 class="mb-4 text-xl font-semibold sm:text-2xl">
                         {{ project.title }}
                     </h4>
 
-                    <p class="mb-6 leading-7 text-gray-300">
+                    <p class="mb-6 text-sm leading-6 text-gray-300 sm:text-base">
                         {{ project.description }}
                     </p>
 

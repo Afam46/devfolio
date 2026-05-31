@@ -5,7 +5,7 @@
                 Форма
             </p>
 
-            <h3 class="text-4xl font-bold">
+            <h3 class="text-2xl font-bold sm:text-3xl md:text-4xl">
                 Свяжитесь со мной
             </h3>
         </div>
@@ -55,11 +55,11 @@
                 @generated="form.message = $event"
             />
             
-            <div class="flex gap-4">
+            <div class="flex flex-col gap-4 sm:flex-row">
                 <button
                     :disabled="loading"
                     class="w-full rounded-2xl bg-cyan-500 py-4 font-semibold cursor-pointer
-                    text-black transition hover:bg-cyan-400 disabled:opacity-50"
+                    text-black transition hover:bg-cyan-400 disabled:opacity-50 sm:py-3"
                 >
                     {{ loading ? 'Отправка...' : 'Отправить' }}
                 </button>
@@ -68,7 +68,7 @@
                     type="button"
                     @click.stop="showAiBox = !showAiBox"
                     class="rounded-2xl border border-cyan-400 px-6 py-3 text-cyan-400
-                    transition hover:bg-[#0f172a] cursor-pointer whitespace-nowrap"
+                    transition hover:bg-[#0f172a] cursor-pointer whitespace-nowrap sm:py-3"
                 >
                     ✨ AI
                 </button>
