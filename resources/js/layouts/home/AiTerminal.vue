@@ -97,7 +97,7 @@
                     >
 
                     <button
-                        :disabled="loading || !question"
+                        :disabled="loading"
                         :class="!loading && question ? 'transition hover:bg-cyan-400 cursor-pointer':''"
                         class="rounded-2xl bg-cyan-500 px-6 py-3 text-sm sm:px-8 sm:py-4 duration-300
                         font-semibold text-black disabled:opacity-50"

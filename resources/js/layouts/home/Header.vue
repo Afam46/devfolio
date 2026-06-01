@@ -5,7 +5,7 @@
                 Afolio
             </a>
 
-            <nav class="flex gap-4 text-xs text-gray-300 sm:gap-6 sm:text-sm">
+            <nav class="flex gap-4 text-[0.625rem] text-gray-300 sm:gap-6 sm:text-sm">
                 <a href="#about" class="transition duration-300 hover:text-white">Обо мне</a>
                 <a href="#projects" class="transition duration-300 hover:text-white">Проекты</a>
                 <a href="#contacts" class="transition duration-300 hover:text-white">Контакты</a>
