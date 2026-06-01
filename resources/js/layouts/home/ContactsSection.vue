@@ -25,7 +25,7 @@
                 <a  v-for="contact in contacts" :key="contact.title"
                     :href="contact.link" target="_blank"
                     class="group rounded-3xl border border-white/10 bg-white/5 p-8
-                    transition hover:-translate-y-2 hover:border-cyan-400/40"
+                    transition hover:-translate-y-2 hover:border-cyan-400/40 duration-300"
                 >
                     <div
                         class="mb-5 flex h-12 w-12 items-center justify-center

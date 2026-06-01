@@ -26,7 +26,7 @@
                     href="#projects"
                     class="inline-flex items-center justify-center rounded-xl
                     bg-cyan-500 px-4 py-2 text-center text-sm font-medium transition
-                    hover:bg-cyan-400 sm:px-6 sm:py-3"
+                    hover:bg-cyan-400 duration-300 sm:px-6 sm:py-3"
                 >
                     Мои проекты
                 </a>
@@ -34,7 +34,7 @@
                     href="#form"
                     class="inline-flex items-center justify-center rounded-xl
                     border border-white/20 px-4 py-2 text-center text-sm font-medium transition
-                    hover:border-cyan-400 hover:text-cyan-400 sm:px-6 sm:py-3"
+                    hover:border-cyan-400 duration-300 hover:text-cyan-400 sm:px-6 sm:py-3"
                 >
                     Связаться
                 </a>

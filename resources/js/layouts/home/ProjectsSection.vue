@@ -11,14 +11,20 @@
                 </h3>
             </div>
 
-            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <TransitionGroup
+                name="projects"
+                tag="div"
+                class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+            >
                 <a
                     v-for="project in visibleProjects"
                     :key="project.title"
                     :href="project.link"
                     target="_blank"
-                    class="rounded-3xl border border-white/10 bg-white/5 p-6 transition
-                    hover:-translate-y-2 hover:border-cyan-400/30"
+                    :class="[
+                        'rounded-3xl border border-white/10 bg-white/5 p-6 duration-300',
+                        !animating && 'hover:-translate-y-2 hover:border-cyan-400/30'
+                    ]"
                 >
                     <h4 class="mb-4 text-xl font-semibold sm:text-2xl">
                         {{ project.title }}
@@ -32,16 +38,14 @@
                         {{ project.tech }}
                     </span>
                 </a>
-            </div>
+            </TransitionGroup>
             <div class="mt-10 text-center">
                 <a
-                    @click="showAll = !showAll"
-                    href="#projects"
-                    class="rounded-2xl border border-cyan-400 px-8 py-4
-                    text-cyan-400 transition hover:bg-cyan-400
-                    hover:text-black cursor-pointer"
+                    @click="toggleProjects" href="#projects"
+                    class="rounded-2xl border border-cyan-400 px-8 py-4 text-cyan-400
+                    transition-all duration-300 hover:bg-cyan-400 hover:text-black"
                 >
-                    {{ showAll ? 'Скрыть проекты' : 'Показать все проекты' }}
+                    {{ showAll ? 'Скрыть' : 'Все' }}
                 </a>
             </div>
         </div>
@@ -50,6 +54,8 @@
 
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+
+const animating = ref(false)
 
 const showAll = ref(false)
 const projectsPerRow = ref(3)
@@ -122,4 +128,14 @@ const visibleProjects = computed(() => {
 
     return projects.slice(0, projectsPerRow.value)
 })
+
+const toggleProjects = () => {
+    animating.value = true
+
+    showAll.value = !showAll.value
+
+    setTimeout(() => {
+        animating.value = false
+    }, 600)
+}
 </script>

@@ -6,10 +6,10 @@
             </a>
 
             <nav class="flex gap-4 text-xs text-gray-300 sm:gap-6 sm:text-sm">
-                <a href="#about" class="transition hover:text-white">Обо мне</a>
-                <a href="#projects" class="transition hover:text-white">Проекты</a>
-                <a href="#contacts" class="transition hover:text-white">Контакты</a>
-                <a href="#form" class="transition hover:text-white">Форма</a>
+                <a href="#about" class="transition duration-300 hover:text-white">Обо мне</a>
+                <a href="#projects" class="transition duration-300 hover:text-white">Проекты</a>
+                <a href="#contacts" class="transition duration-300 hover:text-white">Контакты</a>
+                <a href="#form" class="transition duration-300 hover:text-white">Форма</a>
             </nav>
         </div>
     </header>

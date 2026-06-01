@@ -29,3 +29,28 @@ body {
     transform-origin: 70% 70%;
     animation: wave 4s;
 }
+
+.projects-enter-active,
+.projects-leave-active,
+.projects-move {
+    transition: all .6s ease;
+}
+
+.projects-enter-from {
+    opacity: 0;
+    transform: translateY(-100px) scale(0.9);
+}
+
+.projects-enter-to {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.projects-leave-from {
+    opacity: 1;
+}
+
+.projects-leave-to {
+    opacity: 0;
+    transform: translateY(-100px) scale(0.9);
+}

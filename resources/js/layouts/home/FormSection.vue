@@ -60,7 +60,7 @@
                 <button
                     :disabled="loading"
                     class="w-full rounded-2xl bg-cyan-500 py-4 font-semibold cursor-pointer
-                    text-black transition hover:bg-cyan-400 disabled:opacity-50 sm:py-3"
+                    text-black transition hover:bg-cyan-400 disabled:opacity-50 sm:py-3 duration-300"
                 >
                     {{ loading ? 'Отправка...' : 'Отправить' }}
                 </button>
@@ -68,7 +68,7 @@
                 <button
                     type="button"
                     @click.stop="showAiBox = !showAiBox"
-                    class="rounded-2xl border border-cyan-400 px-6 py-3 text-cyan-400
+                    class="rounded-2xl border border-cyan-400 px-6 py-3 text-cyan-400 duration-300
                     transition hover:bg-[#0f172a] cursor-pointer whitespace-nowrap sm:py-3"
                 >
                     ✨ AI

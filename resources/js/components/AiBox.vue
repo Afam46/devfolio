@@ -38,7 +38,7 @@
             :disabled="aiLoading"
             type="button"
             class="mt-4 w-full rounded-xl bg-cyan-500 px-6 py-3
-            font-semibold text-black transition hover:bg-cyan-400
+            font-semibold text-black transition hover:bg-cyan-400 duration-300
             disabled:opacity-50 cursor-pointer"
         >
             {{ aiLoading ? 'Генерация...' : 'Сгенерировать' }}
