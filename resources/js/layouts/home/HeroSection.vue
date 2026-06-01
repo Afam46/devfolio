@@ -1,12 +1,18 @@
 <template>
-    <section class="mx-auto flex min-h-[85vh] max-w-6xl flex-col justify-center px-6">
-        <div class="max-w-3xl">
+     <section class="mx-auto flex min-h-[85vh] max-w-6xl flex-col justify-center px-6">
+        <div
+            class="max-w-3xl transition-all duration-1000"
+            :class="loaded ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'"
+        >
             <p class="mb-4 text-sm uppercase tracking-[0.3em] text-cyan-400">
                 Fullstack Developer
             </p>
 
-            <h2 class="mb-6 text-3xl font-bold leading-tight sm:text-5xl md:text-6xl">
-                Привет, я Ислам 👋
+            <h2 class="mb-6 text-3xl font-bold leading-tight sm:text-5xl md:text-6xl z-30">
+                Привет, я Ислам
+                <span class="inline-block animate-wave transition-all duration-1000"
+                :class="loaded ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'"
+                >👋</span>
             </h2>
 
             <p class="mb-8 text-base leading-7 text-gray-300 sm:text-lg sm:leading-8">
@@ -36,3 +42,17 @@
         </div>
     </section>
 </template>
+
+<script setup>
+
+import { ref, onMounted } from 'vue'
+
+const loaded = ref(false)
+
+onMounted(() => {
+    setTimeout(() => {
+        loaded.value = true
+    }, 200)
+})
+
+</script>
