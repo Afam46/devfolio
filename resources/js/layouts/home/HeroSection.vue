@@ -15,7 +15,7 @@
                 >👋</span>
             </h2>
 
-            <p class="mb-8 text-base leading-7 text-gray-300 sm:text-lg sm:leading-8">
+            <p class="mb-8 text-sm leading-7 text-gray-300 sm:text-lg sm:leading-8">
                 Fullstack-разработчик с фокусом на Laravel + Vue.
                 Разрабатываю API, Telegram-ботов, realtime-приложения,
                 AI-интеграции и современные SPA

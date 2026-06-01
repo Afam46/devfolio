@@ -217,8 +217,9 @@ const askAi = async () => {
         }, 30)
 
     }catch(err){
-
-        answer.value = 'Ошибка AI сервиса.'
+        displayedCommand.value = 'cat err.txt'
+        displayedAnswer.value = 'Ошибка AI сервиса'
+        question.value = ''
 
     }finally{
 
